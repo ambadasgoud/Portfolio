@@ -11,44 +11,44 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".navbar", {
     y: -100,
     opacity: 0,
-    duration: 1,
+    duration: 0.4,
     ease: "power4.out"
 });
 
 gsap.from(".trusted", {
     y: 50,
     opacity: 0,
-    duration: 1,
+    duration: 0.4,
     delay: 0.2
 });
 
 gsap.from(".hero h1", {
     y: 80,
     opacity: 0,
-    duration: 1.2,
-    delay: 0.3,
+    duration: 0.5,
+    delay: 0.15,
     ease: "power4.out"
 });
 
 gsap.from(".hero p", {
     y: 60,
     opacity: 0,
-    duration: 1,
-    delay: 0.5
+    duration: 0.4,
+    delay: 0.15
 });
 
 gsap.from(".hero-buttons", {
     y: 60,
     opacity: 0,
-    duration: 1,
-    delay: 0.7
+    duration: 0.5,
+    delay: 0.17
 });
 
 gsap.from(".hero-image", {
     scale: 0.8,
     opacity: 0,
-    duration: 1.5,
-    delay: 0.4,
+    duration: 0.5,
+    delay: 0.14,
     ease: "power4.out"
 });
 document.querySelectorAll('.call-btn').forEach(btn => {
@@ -83,7 +83,7 @@ gsap.utils.toArray(".section-title").forEach((title) => {
 
         y: 60,
         opacity: 0,
-        duration: 1
+        duration: 0.4
     });
 
 });
@@ -103,7 +103,7 @@ gsap.utils.toArray(".stat-card").forEach((card, index) => {
 
         y: 80,
         opacity: 0,
-        duration: 1,
+        duration: 0.4,
         delay: index * 0.15
 
     });
@@ -274,7 +274,7 @@ gsap.utils.toArray(".feedback-card").forEach((card, index) => {
 
         scale: 0.8,
         opacity: 0,
-        duration: 1,
+        duration: 0.4,
         delay: index * 0.15
 
     });
@@ -296,7 +296,7 @@ gsap.utils.toArray(".result-card").forEach((card, index) => {
 
         y: 80,
         opacity: 0,
-        duration: 1,
+        duration: 0.4,
         delay: index * 0.15
 
     });
@@ -316,7 +316,7 @@ gsap.from(".cta-box", {
 
     scale: 0.9,
     opacity: 0,
-    duration: 1.2
+    duration: 0.5
 
 });
 document.querySelectorAll('.email-btn').forEach(btn => {
@@ -360,7 +360,7 @@ counters.forEach(counter => {
         {
             innerText: value,
 
-            duration: 2,
+            duration: 0.4,
 
             ease: "power2.out",
 
