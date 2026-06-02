@@ -487,8 +487,9 @@
  }
 
  .podcast-card {
-     height: 450px;
-
+     aspect-ratio: 9 / 16;
+     height: auto;
+     overflow: hidden;
      border-radius: 30px;
 
      background: linear-gradient(135deg,
@@ -512,7 +513,8 @@
  .podcast-card video {
      width: 100%;
      height: 100%;
-     object-fit: cover;
+     object-fit: contain;
+     background: #000;
  }
 
  .podcast-card:hover {
@@ -529,7 +531,9 @@
  .podcast-video {
      width: 100%;
      height: 100%;
-     object-fit: cover;
+     object-fit: contain;
+     background: #000;
+     display: block;
  }
 
  .podcast-play-btn {
