@@ -53,7 +53,7 @@
 
      z-index: -1;
 
-     animation: floatGlow 10s ease-in-out infinite;
+     animation: floatGlow 0.3s ease-in-out infinite;
  }
 
  @keyframes floatGlow {
@@ -292,7 +292,7 @@
      font-weight: 700;
      font-size: 1rem;
 
-     transition: all 0.4s ease;
+     transition: all 0.2s ease;
 
      cursor: pointer;
  }
